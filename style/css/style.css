@@ -169,3 +169,93 @@ button {
      between the labels and their text fields */
   margin-left: .5em;
 }
+/*This size is for Laptops*/
+@media screen and (max-width: 980px) {
+  /* The body's bg color will be #333 */
+  body {
+    
+  }
+
+  .aboutMe
+{
+	margin: 30px 0px 35px 30px;
+	padding: 20px;
+	float: left;
+	width: 87%;
+	background:white;
+}
+  .connect
+{
+	padding: 20px;
+	float: left;
+	margin: 0 30px 90px 30px;
+	width: 87%;
+	background: white;
+
+}
+
+  
+}
+/*This size is for tablets*/
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    
+  }
+  
+  .aboutMe
+{
+	margin: 30px 0px 35px 30px;
+	padding: 20px;
+	float: left;
+	width: 87%;
+	background:white;
+}
+  .connect
+{
+	padding: 20px;
+	float: left;
+	margin: 0 30px 90px 30px;
+	width: 87%;
+	background: white;
+
+}
+}
+/*This size is for phones in landscape*/
+@media screen and (max-width: 620px) {
+  /* The body's bg color will be #333 */
+  body {
+    
+  }
+
+.aboutMe
+{
+	margin: 30px 0px 35px 30px;
+	padding: 20px;
+	float: left;
+	width: 87%;
+	background:white;
+}
+  .connect
+{
+	padding: 20px;
+	float: left;
+	margin: 0 30px 90px 30px;
+	width: 87%;
+	background: white;
+
+}
+
+#yourName
+{
+	width:87%;
+}
+
+#topLinks
+{
+	float: left;
+	padding: 15px 15px 15px 0;
+	margin-right: 30px;
+}
+
+}
